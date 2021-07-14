@@ -1,8 +1,21 @@
 .header {
 	height: 70vh;
-	background-image: url("../images/bg.jpg");
+	// linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+	//               url("../../media/examples/lizard.png");
+	background-image: linear-gradient(
+			to right,
+			rgba(255, 255, 255, 0.411),
+			rgb(0, 0, 0, 0.9)
+		),
+		url("../images/bg.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+
 h1 {
-	color: white;
+	width: 40%;
 }
