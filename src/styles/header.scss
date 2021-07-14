@@ -1,21 +1,19 @@
 .header {
-	height: 70vh;
-	// linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
-	//               url("../../media/examples/lizard.png");
-	background-image: linear-gradient(
-			to right,
-			rgba(255, 255, 255, 0.411),
-			rgb(0, 0, 0, 0.9)
-		),
+	height: 50vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
 		url("../images/bg.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position-x: 400px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	color: white;
+	text-align: center;
 }
 
-h1 {
-	width: 40%;
+.header h1 {
+	margin-bottom: 10px;
+}
+.header h2 {
+	margin-bottom: 50px;
 }
