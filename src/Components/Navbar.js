@@ -8,8 +8,7 @@ export default function navbar() {
     return (
         <nav>
             <div className="container">
-                <img src={fullLogo} alt="logo" />
-                {/* <p>Pavle Jovanović</p> */}
+                <Link to="/"><img src={fullLogo} alt="logo" /></Link>
                 <ul>
                     <Link to="/"><li>Pocetna</li></Link>
                     <Link to="/oMeni"><li>O meni</li></Link>
