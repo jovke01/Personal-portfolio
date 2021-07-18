@@ -10,7 +10,7 @@ export default function navbar() {
             <div className="container">
                 <Link to="/"><img src={fullLogo} alt="logo" /></Link>
                 <ul>
-                    <Link to="/"><li>Pocetna</li></Link>
+                    {/* <Link to="/"><li>Pocetna</li></Link> */}
                     <Link to="/oMeni"><li>O meni</li></Link>
                     <Link to="/kontakt"><li>Kontakt</li></Link>
                 </ul>
