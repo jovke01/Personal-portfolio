@@ -1,8 +1,10 @@
 import React from "react";
+import "../styles/global.scss";
 import { Header } from "../Components/Header";
 import Navbar from "../Components/Navbar";
 import Features from "../Components/Features";
-import "../styles/global.scss";
+import Projects from "../Components/Projects";
+import Testimonials from "../Components/Testimonials";
 
 const index = () => {
   return (
@@ -10,6 +12,8 @@ const index = () => {
       <Navbar />
       <Header />
       <Features />
+      <Testimonials />
+      <Projects />
     </div>
   );
 };
