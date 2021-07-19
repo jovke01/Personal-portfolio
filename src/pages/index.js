@@ -4,7 +4,7 @@ import { Header } from "../Components/Header";
 import Navbar from "../Components/Navbar";
 import Features from "../Components/Features";
 import Projects from "../Components/Projects";
-import Testimonials from "../Components/Testimonials";
+// import Testimonials from "../Components/Testimonials";
 
 const index = () => {
   return (
@@ -12,8 +12,8 @@ const index = () => {
       <Navbar />
       <Header />
       <Features />
-      <Testimonials />
       <Projects />
+      {/* <Testimonials /> */}
     </div>
   );
 };

@@ -7,7 +7,7 @@ import development from '../images/development.svg'
 const features = () => {
     return (
         <div className="features">
-            <div className="container cards">
+            <div className="container cards" >
                 <div className="card">
                     <img src={seo} alt="SEO" />
                     <h2>SEO</h2>
@@ -24,6 +24,7 @@ const features = () => {
                     <p>Ovaj deo ostavite meni</p>
                 </div>
             </div>
+            <div id="radovi"></div>
         </div>
     )
 }
