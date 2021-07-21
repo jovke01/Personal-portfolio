@@ -7,6 +7,11 @@ import Projects from "../Components/Projects";
 import Footer from "../Components/Footer";
 // import Testimonials from "../Components/Testimonials";
 
+
+// add SEO data 
+
+
+
 const index = () => {
   return (
     <div>

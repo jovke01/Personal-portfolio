@@ -7,7 +7,6 @@
 	margin-bottom: 275px;
 	padding: 50px;
 	button {
-		display: inline;
 		font-size: 16px;
 		padding: 10px 20px;
 		background-color: #3535ff;
@@ -32,4 +31,33 @@
 .mail {
 	display: flex;
 	margin-bottom: 20px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.kontakt {
+		padding: 10px;
+		// text-align: center;
+		width: 90%;
+		margin: 50px auto 188px auto;
+		h2 {
+			font-size: 1.5rem;
+			width: 80%;
+		}
+		button {
+			margin-left: -50px;
+		}
+		.container {
+			margin-left: -10px;
+		}
+	}
+
+	.mail {
+		flex-direction: column;
+		width: 90%;
+		margin-left: 50px;
+		align-items: center;
+		justify-content: start;
+		p {
+			margin-bottom: 10px;
+		}
+	}
 }
