@@ -14,7 +14,7 @@ const Projects = () => {
                     <div className="project">
                         <a target='_blank' rel="noreferrer" href="https://sladjabodar.net/index.html">
                             <StaticImage
-                                src="../images/bodar.png"
+                                src="../images/bodar.PNG"
                                 alt="bodar"
                                 placeholder="blurred"
                                 layout="fullWidth"
