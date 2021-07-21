@@ -22,16 +22,9 @@ a {
 	text-decoration: none;
 	color: white;
 }
-.btn-main {
-	font-size: 16px;
-	padding: 18px 32px;
-	background-color: $accent-color;
-	box-sizing: border-box;
-	border-radius: 5px;
-	transition: 0.3s ease;
-	border: 3px solid transparent;
-	&:hover {
-		background-color: transparent;
-		border: 3px solid $accent-color;
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.container {
+		width: 90vw;
 	}
 }
