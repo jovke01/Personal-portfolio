@@ -2,10 +2,15 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import Footer from "../Components/Footer";
 import '../styles/kontakt.scss'
+import { Helmet } from "react-helmet";
+
 
 
 
 const kontakt = () => {
+    <Helmet title="Pavle Jovanovic | Kontakt"
+        meta="Kontaktirajte me"
+        defer={false} />
     return (
         <section>
             <Navbar />

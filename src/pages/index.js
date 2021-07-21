@@ -5,14 +5,13 @@ import Navbar from "../Components/Navbar";
 import Features from "../Components/Features";
 import Projects from "../Components/Projects";
 import Footer from "../Components/Footer";
+import { Helmet } from "react-helmet";
 // import Testimonials from "../Components/Testimonials";
 
-
-// add SEO data 
-
-
-
 const index = () => {
+  <Helmet title="Pavle Jovanovic | pocetna"
+    meta="Sve sto je potrebno za izradu vaseg sajta na jednom mestu, web dizajn"
+    defer={false} />
   return (
     <div>
       <Navbar />

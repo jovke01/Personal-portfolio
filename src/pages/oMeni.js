@@ -1,9 +1,14 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
-import Footer from "../Components/Footer";
+import Footer from "../Components/Footer"
+import { Helmet } from "react-helmet"
+
 
 import '../styles/omeni.scss'
 const oMeni = () => {
+    <Helmet title="Pavle Jovanovic | O meni"
+        meta="Malo i o meni"
+        defer={false} />
     return (
         <div>
             <Navbar />
