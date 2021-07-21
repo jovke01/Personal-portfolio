@@ -1,1 +1,16 @@
 @import "global.scss";
+
+footer {
+	width: 100%;
+
+	.container {
+		background: $bg-light;
+		color: white;
+		display: flex;
+		width: 100%;
+		justify-content: space-around;
+		align-items: center;
+		padding: 15px 0;
+		height: 90px;
+	}
+}
