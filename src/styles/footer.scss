@@ -3,7 +3,7 @@
 footer {
 	width: 100%;
 	overflow: hidden;
-	.container {
+	.container-footer {
 		background: $bg-light;
 		color: white;
 		display: flex;
@@ -12,6 +12,8 @@ footer {
 		align-items: center;
 		padding: 15px 0;
 		height: 90px;
+
+		// height: auto;
 	}
 	p {
 		color: #949494;
@@ -19,7 +21,7 @@ footer {
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 	footer {
-		.container {
+		.container-footer {
 			justify-content: space-around;
 			// padding: 90px 0;
 			height: 150px;

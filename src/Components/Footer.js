@@ -5,7 +5,7 @@ import fullLogoLight from '../images/logo-light.svg'
 const Footer = () => {
     return (
         <footer>
-            <div className="container">
+            <div className="container-footer">
                 <Link to="/"><img src={fullLogoLight} alt="logo" /></Link>
                 <ul>
                     <Link to="/oMeni"><li>O meni</li></Link>

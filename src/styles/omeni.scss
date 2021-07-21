@@ -1,14 +1,17 @@
 @import "global.scss";
 .omeni {
-	margin-top: 50px;
 	color: white;
+
 	h2 {
 		margin-bottom: 20px;
 		font-size: 2rem;
 	}
+	.container {
+		margin-top: 50px;
+		margin-bottom: 170px;
+	}
 }
 .normal-txt {
-	margin-bottom: 30px;
 	p {
 		width: 60%;
 		line-height: 1.5rem;
@@ -16,6 +19,7 @@
 		font-size: 1.2rem;
 	}
 	h3 {
+		margin-top: 20px;
 		margin-bottom: 10px;
 	}
 }

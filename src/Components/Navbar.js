@@ -8,7 +8,7 @@ export default function navbar() {
 
     return (
         <nav>
-            <div className="container">
+            <div className="container-nav">
                 <Link to="/"><img src={fullLogo} alt="logo" /></Link>
                 <ul>
                     {/* <Link to="/"><li>Pocetna</li></Link> */}
