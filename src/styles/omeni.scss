@@ -25,3 +25,11 @@
 	font-size: 1.3rem;
 	font-weight: 400;
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.normal-txt {
+		margin-bottom: 50px;
+		p {
+			width: 100%;
+		}
+	}
+}
