@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
+import Footer from "../Components/Footer";
 import '../styles/kontakt.scss'
+
 
 
 const kontakt = () => {
     return (
-        <div>
+        <section>
             <Navbar />
 
             <div className="kontakt">
@@ -18,8 +20,8 @@ const kontakt = () => {
                     <p>Pavle Jovanović</p>
                 </div>
             </div>
-
-        </div>
+            <Footer />
+        </section>
     )
 }
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
+import Footer from "../Components/Footer";
+
 import '../styles/omeni.scss'
 const oMeni = () => {
     return (
@@ -23,6 +25,7 @@ const oMeni = () => {
                         </p>
                     </div>
                 </div>
+                <Footer />
             </section>
 
         </div>

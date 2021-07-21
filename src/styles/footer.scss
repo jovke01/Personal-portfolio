@@ -13,4 +13,17 @@ footer {
 		padding: 15px 0;
 		height: 90px;
 	}
+	p {
+		color: #949494;
+	}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	footer {
+		.container {
+			justify-content: space-around;
+			// padding: 90px 0;
+			height: 150px;
+			flex-direction: column;
+		}
+	}
 }
