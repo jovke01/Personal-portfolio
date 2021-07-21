@@ -1,12 +1,9 @@
 @import "global.scss";
 .projects {
-	// height: 300px;
 	margin: 100px 0;
 	color: #fff;
 	display: flex;
-	// align-items: center;
 	h2 {
-		// padding-top: 70px;
 		font-size: 2.3rem;
 	}
 }
@@ -16,7 +13,7 @@
 	justify-content: space-between;
 }
 .project {
-	max-width: 300px;
+	width: 300px;
 	background: $bg-light;
 	border-radius: 10px;
 	img {
@@ -47,14 +44,17 @@
 	transition: background-color 0.2s ease;
 }
 .html:hover {
-	background-color: orange;
+	background-color: #e44d26;
 	color: white;
+	border-color: white;
 }
 .css:hover {
-	background-color: rgb(0, 47, 255);
+	background-color: #379ad6;
+	border-color: white;
 	color: white;
 }
 .bootstrap:hover {
-	background-color: purple;
+	background-color: #890afc;
+	border-color: white;
 	color: white;
 }

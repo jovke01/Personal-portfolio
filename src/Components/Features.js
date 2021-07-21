@@ -1,12 +1,12 @@
 import React from 'react'
-import '../styles/global.scss'
+// import '../styles/global.scss'
 import '../styles/features.scss'
 import seo from '../images/seo.svg'
 import design from '../images/design.svg'
 import development from '../images/development.svg'
 const features = () => {
     return (
-        <div className="features">
+        <section className="features">
             <div className="container cards" >
                 <div className="card">
                     <img src={seo} alt="SEO" />
@@ -25,7 +25,7 @@ const features = () => {
                 </div>
             </div>
             <div id="radovi"></div>
-        </div>
+        </section>
     )
 }
 

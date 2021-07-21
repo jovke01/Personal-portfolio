@@ -1,10 +1,9 @@
 import React from 'react'
-import "../styles/global.scss"
+// import "../styles/global.scss"
 import "../styles/testimonials.scss"
 const Testamonials = () => {
     return (
-        <div className="testimonials">
-
+        <section className="testimonials">
             <div className="container">
                 <h2>Iskustva ljudi sa kojima sam do sada radio :</h2>
                 <div className="all-testimonials">
@@ -19,7 +18,7 @@ const Testamonials = () => {
 
                 </div>
             </div>
-        </div >
+        </section >
     )
 }
 
