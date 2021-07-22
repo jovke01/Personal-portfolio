@@ -12,7 +12,7 @@ export const Header = () => {
                     layout="fullWidth"
                     aspectRatio={3 / 1}
                     alt=""
-                    src={'../images/bg.jpg'}
+                    src={'../images/bg-min.jpg'}
                     formats={["webp", "avif"]}
                 />
             </div>
