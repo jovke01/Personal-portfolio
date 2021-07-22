@@ -9,7 +9,7 @@ const Projects = () => {
         <section className="projects">
             <div ></div>
             <div className="container">
-                <h2 >Neki od mojih radova :</h2>
+                <h2 >Moji radovi :</h2>
                 <div className="all-projects">
                     <div className="project">
                         <a target='_blank' rel="noreferrer" href="https://sladjabodar.net/index.html">

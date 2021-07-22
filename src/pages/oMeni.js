@@ -14,8 +14,8 @@ const oMeni = () => {
             <Navbar />
             <section className="omeni">
                 <div className="container">
-                    <h2>Ko sam ja i zašto bi ste želeli da radite sa mnom?</h2>
-                    <p className="dobrodoslica">Dobar dan, ja se zovem Pavle i zelim vam dobrodošlicu na moj web sajt.</p>
+                    <h2>Ko sam ja i zašto biste želeli da radite sa mnom?</h2>
+                    {/* <p className="dobrodoslica">Dobar dan, ja se zovem Pavle i zelim vam dobrodošlicu na moj web sajt.</p> */}
                     <div className="normal-txt">
                         <h3>Obrazovanje :</h3>
                         <p>
@@ -25,7 +25,7 @@ const oMeni = () => {
                     </div>
                     <div className="normal-txt">
                         <h3>Zašto se ovime bavim :</h3>
-                        <p>Fasciniraju me dobar dizajn kao i to kako je taj dizajn inplementuran u kodu.
+                        <p>Fascinira me dobar dizajn kao i to kako je taj dizajn implementiran u kodu.
                             Uživam u celom procesu izrade sajta.
                         </p>
                     </div>
