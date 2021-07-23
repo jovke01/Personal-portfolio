@@ -1,4 +1,5 @@
 import React from 'react'
+import favicon from '../images/favicon.ico'
 import Navbar from '../Components/Navbar'
 import Footer from "../Components/Footer";
 import '../styles/kontakt.scss'
@@ -8,13 +9,14 @@ import { Helmet } from "react-helmet";
 
 
 const kontakt = () => {
-    <Helmet title="Pavle Jovanovic | Kontakt"
-        meta="Kontaktirajte me"
-        defer={false} />
+    <Helmet defer={false}>
+        <title>Pavle Jovanovic | Kontakt</title>
+        <link rel="icon" href={favicon} />
+    </Helmet>
     return (
+
         <section>
             <Navbar />
-
             <div className="kontakt">
                 <div className="container ">
                     <h2>Za sve informacije možete se obratiti na:</h2>

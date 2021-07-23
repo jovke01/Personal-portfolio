@@ -1,8 +1,5 @@
 import React from 'react'
-// import "../styles/global.scss"
 import "../styles/projects.scss"
-// import bodar from '../images/bodar.png'
-import { graphql } from 'gatsby'
 import { StaticImage } from "gatsby-plugin-image"
 const Projects = () => {
     return (
@@ -39,15 +36,3 @@ const Projects = () => {
 
 export default Projects
 
-export const query = graphql`
-query Bodar {
-    file(relativePath: {eq: "bodar.PNG"}) {
-      id
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`

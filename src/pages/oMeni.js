@@ -1,4 +1,5 @@
 import React from 'react'
+import favicon from '../images/favicon.ico'
 import Navbar from '../Components/Navbar'
 import Footer from "../Components/Footer"
 import { Helmet } from "react-helmet"
@@ -6,9 +7,11 @@ import { Helmet } from "react-helmet"
 
 import '../styles/omeni.scss'
 const oMeni = () => {
-    <Helmet title="Pavle Jovanovic | O meni"
-        meta="Malo i o meni"
-        defer={false} />
+    <Helmet defer={false}>
+        <title>Pavle Jovanovic | početna</title>
+        <link rel="icon" href={favicon} />
+        htmlAttributes={{ lang: "sr" }}
+    </Helmet>
     return (
         <div>
             <Navbar />
