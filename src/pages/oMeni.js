@@ -3,8 +3,6 @@ import favicon from '../images/favicon.ico'
 import Navbar from '../Components/Navbar'
 import Footer from "../Components/Footer"
 import { Helmet } from "react-helmet"
-
-
 import '../styles/omeni.scss'
 const oMeni = () => {
     <Helmet defer={false}>
@@ -31,6 +29,18 @@ const oMeni = () => {
                         <p>Fascinira me dobar dizajn kao i to kako je taj dizajn implementiran u kodu.
                             Uživam u celom procesu izrade sajta.
                         </p>
+                    </div>
+                    <div className="normal-txt">
+                        <h3>Veštine:</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>SCSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Gatsby</li>
+                            <li>Git</li>
+                        </ul>
                     </div>
                 </div>
                 <Footer />
