@@ -12,8 +12,10 @@ footer {
 		align-items: center;
 		padding: 15px 0;
 		height: 90px;
-
-		// height: auto;
+		img {
+			max-width: 100%;
+			max-height: 100%;
+		}
 	}
 	p {
 		color: #949494;

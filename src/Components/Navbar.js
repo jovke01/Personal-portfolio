@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-// import '../styles/global.scss'
 import '../styles/nav.scss'
 import fullLogo from '../images/fullLogo.svg'
 

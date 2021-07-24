@@ -15,7 +15,6 @@ const oMeni = () => {
             <section className="omeni">
                 <div className="container">
                     <h2>Ko sam ja i zašto biste želeli da radite sa mnom?</h2>
-                    {/* <p className="dobrodoslica">Dobar dan, ja se zovem Pavle i zelim vam dobrodošlicu na moj web sajt.</p> */}
                     <div className="normal-txt">
                         <h3>Obrazovanje :</h3>
                         <p>
