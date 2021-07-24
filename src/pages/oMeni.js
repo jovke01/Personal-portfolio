@@ -32,7 +32,7 @@ const oMeni = () => {
                     </div>
                     <div className="normal-txt">
                         <h3>Veštine:</h3>
-                        <ul>
+                        <ul className="vestine">
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>SCSS</li>
