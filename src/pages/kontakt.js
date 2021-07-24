@@ -12,13 +12,13 @@ import twitter from '../images/twitter.svg'
 
 
 const kontakt = () => {
-    <Helmet defer={false}>
-        <title>Pavle Jovanovic | Kontakt</title>
-        <link rel="icon" href={favicon} />
-    </Helmet>
     return (
 
         <section>
+            <Helmet defer={false}>
+                <title>Pavle Jovanovic | Kontakt</title>
+                <link rel="icon" href={favicon} />
+            </Helmet>
             <Navbar />
             <div className="kontakt">
                 <div className="container ">

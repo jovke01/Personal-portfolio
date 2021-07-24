@@ -5,13 +5,12 @@ import Footer from "../Components/Footer"
 import { Helmet } from "react-helmet"
 import '../styles/omeni.scss'
 const oMeni = () => {
-    <Helmet defer={false}>
-        <title>Pavle Jovanovic | početna</title>
-        <link rel="icon" href={favicon} />
-        htmlAttributes={{ lang: "sr" }}
-    </Helmet>
     return (
         <div>
+            <Helmet defer={false}>
+                <title>Pavle Jovanovic | O meni</title>
+                <link rel="icon" href={favicon} />
+            </Helmet>
             <Navbar />
             <section className="omeni">
                 <div className="container">
