@@ -8,7 +8,8 @@ const oMeni = () => {
     return (
         <div>
             <Helmet defer={false}>
-                <title>Izrada web sajtova - Web dizajn | O meni</title>
+                <title>Izrada web sajtova Beograd - Web dizajn | O meni</title>
+                <meta name="description" content="Izrada web sajtova, SEO, dizajn, web dizajn Beograd" />
                 <link rel="icon" href={favicon} />
             </Helmet>
             <Navbar />
