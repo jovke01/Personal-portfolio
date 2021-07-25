@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Portfolio-website",
+    siteUrl: "https://jovanovicpavle.com/",
+    title: "Web dizajn - izrada web sajtova | Pavle Jovanovic",
   },
   plugins: [
     "gatsby-plugin-sass",
