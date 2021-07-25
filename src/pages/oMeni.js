@@ -8,7 +8,7 @@ const oMeni = () => {
     return (
         <div>
             <Helmet defer={false}>
-                <title>Pavle Jovanovic | O meni</title>
+                <title>Web dizajn - izrada web sajtova | O meni</title>
                 <link rel="icon" href={favicon} />
             </Helmet>
             <Navbar />

@@ -16,7 +16,7 @@ const kontakt = () => {
 
         <section>
             <Helmet defer={false}>
-                <title>Pavle Jovanovic | Kontakt</title>
+                <title>Web dizajn - izrada web sajtova | Kontakt</title>
                 <link rel="icon" href={favicon} />
             </Helmet>
             <Navbar />

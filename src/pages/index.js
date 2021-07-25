@@ -12,7 +12,7 @@ const index = () => {
   return (
     <div>
       <Helmet defer={false}>
-        <title>Pavle Jovanovic | početna</title>
+        <title>Web dizajn - izrada web sajtova | Pavle Jovanovic</title>
         <meta name="description" content="Sve sto je potrebno za izradu vašeg sajta, web dizajn" />
         <link rel="icon" href={favicon} />
       </Helmet>
