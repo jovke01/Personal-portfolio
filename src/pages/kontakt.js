@@ -22,7 +22,7 @@ const kontakt = () => {
             <Navbar />
             <div className="kontakt">
                 <div className="container ">
-                    <h2>Za sve informacije možete se obratiti na:</h2>
+                    <h2>Za sve informacije možete se obratiti na: </h2>
                     <div className="mail">
                         <p>e-mail: jovanovicpavle00@gmail.com</p>
                         <button onClick={() => { navigator.clipboard.writeText('jovanovicpavle00@gmail.com') }}>Kopiraj</button>
