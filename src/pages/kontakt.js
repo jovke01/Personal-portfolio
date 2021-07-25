@@ -16,7 +16,7 @@ const kontakt = () => {
 
         <section>
             <Helmet defer={false}>
-                <title>Web dizajn - izrada web sajtova | Kontakt</title>
+                <title>Izrada web sajtova - Web dizajn | Kontakt</title>
                 <link rel="icon" href={favicon} />
             </Helmet>
             <Navbar />
