@@ -13,7 +13,7 @@ const index = () => {
     <div>
       <Helmet defer={false}>
         <title>Web dizajn - izrada web sajtova | Pavle Jovanovic</title>
-        <meta name="description" content="Sve sto je potrebno za izradu vašeg sajta, web dizajn" />
+        <meta name="description" content="Sve sto je potrebno za izradu vašeg sajta, web dizajn Beograd" />
         <link rel="icon" href={favicon} />
       </Helmet>
       <Navbar />
