@@ -25,6 +25,7 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-sharp",
+    "gatsby-plugin-netlify",
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -18,8 +18,9 @@ const kontakt = () => {
             <Helmet defer={false}>
                 <title>Izrada web sajtova Beograd - Web dizajn | Kontakt</title>
                 <meta name="description" content="Potreban vam je web sajt, na pravom ste mestu sve sto je potrebno je da se javite na mail i dalje je to moja briga" />
-
                 <link rel="icon" href={favicon} />
+                <link rel="canonical" href="{{ https://jovanovicpavle.com/ }}{{ /kontakt }}"></link>
+
             </Helmet>
             <Navbar />
             <div className="kontakt">

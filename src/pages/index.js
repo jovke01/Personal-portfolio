@@ -15,6 +15,7 @@ const index = () => {
         <title>Izrada web sajtova Beograd - Web dizajn | Pavle Jovanovic</title>
         <meta name="description" content="Izrada web sajtova, SEO, dizajn, web dizajn Beograd" />
         <link rel="icon" href={favicon} />
+        <link rel="canonical" href="{{ https://jovanovicpavle.com/ }}{{ / }}"></link>
       </Helmet>
       <Navbar />
       <Header />
