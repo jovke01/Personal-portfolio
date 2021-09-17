@@ -39,7 +39,6 @@ const oMeni = () => {
                             <li>SCSS</li>
                             <li>JavaScript</li>
                             <li>React</li>
-                            <li>Gatsby</li>
                             <li>Git</li>
                         </ul>
                     </div>
